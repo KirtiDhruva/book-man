@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
   })
 })
 
-const PORT = process.env.ENVIRONMENT === 'development' ? 3000 : 80
+const PORT = 3000
 
 app.listen(PORT, (err) => {
   if (err) return console.err(`Error starting server on port ${PORT}.`)
