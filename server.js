@@ -13,7 +13,7 @@ const {
   router: libraryRouter,
 } = require('./routes/libraryRoutes')
 
-app.use(`/api/v1${libraryPath}`, libraryRouter)
+app.use(`/api${libraryPath}`, libraryRouter)
 
 //Catch-all route
 app.use((req, res, next) => next(createError.NotFound('Resource Not Found')))
@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
   })
 })
 
-const PORT = 3000
+const PORT = 7077
 
 app.listen(PORT, (err) => {
   if (err) return console.err(`Error starting server on port ${PORT}.`)

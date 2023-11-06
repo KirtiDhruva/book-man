@@ -1,7 +1,5 @@
 # Book-Man
 
-## General
-
     Version: 1.0.0
     Author: Kirti Dhruva
     Description: A simple CRUD demo using Node.js, Express.js, Mongoose & MongoDB
@@ -11,7 +9,7 @@
 
 ## Quick Start Guide
 
-## API URL: https://github.com/
+## API URL: http://bookman.techavngel.in/
 
 ## API documentation
 
